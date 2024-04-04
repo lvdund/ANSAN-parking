@@ -1,0 +1,52 @@
+All api: http://202.191.56.104:5525/swagger-ui.html#/
+
+* Link host stream images:
+
+2d map Tran Dai Nghia:
+http://202.191.56.104:5518/original-tdn-right
+
+ImageViewC9:
+original version: http://202.191.56.104:5518/original-c9
+processed version: http://202.191.56.104:5518/processed-c9
+
+ImageViewD35:
+http://202.191.56.104:5518/original-d3
+http://202.191.56.104:5518/processed-d3
+http://202.191.56.104:5518/original-d5
+http://202.191.56.104:5518/processed-d5
+
+ImageViewTĐN:
+http://202.191.56.104:5518/original-tdn-right
+http://202.191.56.104:5518/processed-tdn-right
+http://202.191.56.104:5518/original-tdn-left
+http://202.191.56.104:5518/processed-tdn-left
+
+
+IP: 202.191.56.104 
+ssh_port: 5500
+username: user
+password: sanslab@2021
+
+Đăng nhập với user: lab_co_ha
+pass: labcoha@#$123
+mysql -u lab_co_ha -p
+labcoha@#$123
+
+
+BE:
+/home/demo2021/bahieu-be/backendparkingspacev3
+ps aux | grep backend
+kill {id}
+mvn clean install
+cd target
+nohup java -jar backendparkingspacev2-0.0.1-SNAPSHOT.jar >logBE_DEC13.out &
+http://202.191.56.104:5525/swagger-ui.html
+
+
+FE:
+/home/demo2021/hongquang-fe/hustparking
+pm2 list
+pm2 stop + id
+pm2 delete + id
+pm2 --name fe-iparking start npm -- start
+http://202.191.56.104:5528

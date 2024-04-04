@@ -1,0 +1,22 @@
+All api: http://202.191.56.104:5525/swagger-ui.html#/
+
+* Link host stream images:
+
+2d map Tran Dai Nghia:
+http://202.191.56.104:5518/original-tdn-right
+
+ImageViewC9:
+original version: http://202.191.56.104:5518/original-c9
+processed version: http://202.191.56.104:5518/processed-c9
+
+ImageViewD35:
+http://202.191.56.104:5518/original-d3
+http://202.191.56.104:5518/processed-d3
+http://202.191.56.104:5518/original-d5
+http://202.191.56.104:5518/processed-d5
+
+ImageViewTĐN:
+http://202.191.56.104:5518/original-tdn-right
+http://202.191.56.104:5518/processed-tdn-right
+http://202.191.56.104:5518/original-tdn-left
+http://202.191.56.104:5518/processed-tdn-left

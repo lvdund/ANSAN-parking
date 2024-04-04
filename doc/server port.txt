@@ -1,0 +1,3 @@
+http://202.191.56.104/
+
+bật giúp em bitvise ssh host với port: 5500
