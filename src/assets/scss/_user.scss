@@ -1,0 +1,49 @@
+.list-user {
+  width: 100%;
+  margin-bottom: $spacer;
+  color: #d5dbff;
+  background-color: $table-bg; // Reset for nesting within parents with `background-color`.
+  border-collapse: separate;
+  border-spacing: 0 10px;
+
+  th,
+  td {
+    padding: 0 $table-cell-padding;
+    vertical-align: center;
+    text-align: center;
+  }
+
+  td {
+    // background-image: linear-gradient(180deg, #e5ebf3, 20%, #78a6ef 100%);
+    background-color: white;
+    padding: $table-cell-padding;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    border: 1px solid #c3cad8;
+    color: black;
+
+    &.avatar {
+      display: flex;
+      align-items: center;
+
+      .avatar-img {
+        border-radius: 50% !important;
+        margin-right: 0.7rem;
+        width: 50px;
+        height: auto;
+      }
+    }
+  }
+  thead th {
+    vertical-align: bottom;
+    text-transform: uppercase;
+    font-weight: $font-weight-bold;
+    color: $primary;
+    font-size: 0.7rem;
+  }
+
+  tbody + tbody {
+    border-top: (2 * $table-border-width) solid $table-border-color;
+  }
+}

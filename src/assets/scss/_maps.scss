@@ -1,0 +1,367 @@
+// css maps for D35
+.box {
+    width: 25px;
+    height: 45px;
+    z-index: 1;
+    cursor: pointer;
+    position: absolute;
+}
+
+.box__library {
+    width: 55px;
+    height: 45px;
+    background-color: rgb(160, 153, 153);
+    color: black;
+}
+
+.box__color__D35 {
+    border: 1px solid red;
+}
+
+.box__color__library {
+    border: 1px solid #ccc;
+    display: none;
+}
+
+.box11_D35 {
+    transform: translate(238px, 557px);
+}
+
+.box12_D35 {
+    transform: translate(238px, 510px);
+}
+
+.box13_library {
+    transform: translate(395px, -323px);
+}
+
+.box14_library {
+    transform: translate(395px, -423px);
+}
+
+.box15_library {
+    transform: translate(450px, -413px);
+}
+
+.box16_library {
+    transform: translate(450px, -513px);
+}
+
+.box_road10 {
+    transform: translate(291px, 233px);
+}
+
+.box_road9 {
+    transform: translate(291px, 279px);
+}
+
+.box_road8 {
+    transform: translate(291px, 325px);
+}
+
+.box_road7 {
+    transform: translate(291px, 372px);
+}
+
+.box_road6 {
+    transform: translate(291px, 419px);
+}
+
+.box_road5 {
+    transform: translate(291px, 465px);
+}
+
+.box_road4 {
+    transform: translate(291px, 511px);
+}
+
+.box_road3 {
+    transform: translate(291px, 557px);
+}
+
+.box_road2 {
+    transform: translate(291px, 748px);
+}
+
+.box_road1 {
+    transform: translate(291px, 794px);
+}
+
+.hidden {
+    display: none;
+}
+
+.icon__car__ver {
+    transform: translate(4px, 0px);
+    font-size: 18px;
+}
+
+.icon__car__hori {
+    transform: translate(15px, 10px);
+    font-size: 23px;
+}
+
+.icon__xmark {
+    font-size: 30px;
+    font-weight: bold;
+    transform: translate(18px, -7px);
+}
+
+.change__background__color {
+    background-color: pink !important;
+}
+
+// sidebar show image
+
+.box__image {
+    width: 100px;
+    height: 100px;
+}
+
+.box__info {
+    width: 200px;
+    height: 100px;
+}
+
+.image {
+    transition: 0.2s ease-in;
+}
+
+.image:hover {
+    transform: scale(3);
+}
+
+// css for maps C9
+
+.box_C9 {
+    width: 38px;
+    height: 50px;
+    z-index: 1;
+    cursor: pointer;
+    position: absolute;
+    border: 1px solid red;
+}
+
+.number__id {
+    color: red;
+}
+
+.box_1 {
+    transform: translate(14px, 510px);
+}
+
+.box_2 {
+    transform: translate(52px, 510px);
+    ;
+}
+
+.box_3 {
+    transform: translate(185px, 510px);
+}
+
+.box_4 {
+    transform: translate(224px, 510px);
+}
+
+.box_5 {
+    transform: translate(263px, 510px);
+}
+
+.box_6 {
+    transform: translate(300px, 510px);
+}
+
+.box_7 {
+    transform: translate(339px, 510px);
+}
+
+.box_8 {
+    transform: translate(378px, 510px);
+}
+
+.box_9 {
+    transform: translate(474px, 510px);
+}
+
+.box_10 {
+    transform: translate(513px, 510px);
+}
+
+.box_11 {
+    transform: translate(602px, 510px);
+}
+
+.box_12 {
+    transform: translate(642px, 510px);
+}
+
+.box_13 {
+    transform: translate(187px, 404px);
+}
+
+.box_14 {
+    transform: translate(227px, 404px);
+}
+
+.box_15 {
+    transform: translate(265px, 404px);
+}
+
+.box_16 {
+    transform: translate(303px, 404px);
+}
+
+.box_17 {
+    transform: translate(342px, 404px);
+}
+
+.box_18 {
+    transform: translate(381px, 404px);
+}
+
+.box_19 {
+    transform: translate(169px, 353px);
+}
+
+.box_20 {
+    transform: translate(209px, 353px);
+}
+
+.box_21 {
+    transform: translate(247px, 353px);
+}
+
+.box_22 {
+    transform: translate(285px, 353px);
+}
+
+.box_23 {
+    transform: translate(324px, 353px);
+}
+
+.box_24 {
+    transform: translate(362px, 353px);
+}
+
+.box_25 {
+    transform: translate(401px, 353px);
+}
+
+.box_26 {
+    transform: translate(325px, 249px);
+}
+
+.box_27 {
+    transform: translate(361px, 249px);
+}
+
+.box_28 {
+    transform: translate(443px, 249px);
+}
+
+.box_29 {
+    transform: translate(482px, 249px);
+}
+
+.icon__car__ver__C9 {
+    transform: translate(7px, -7px);
+    font-size: 17px;
+}
+
+.camera-css {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transform: translate(-479px, 618px);
+}
+
+// css maps for TDN
+.box_TDN {
+    width: 38px;
+    height: 50px;
+    z-index: 1;
+    cursor: pointer;
+    position: absolute;
+    border: 1px solid red;
+}
+
+.number__id {
+    color: red;
+}
+
+.box_1 {
+    transform: translate(14px, 510px);
+}
+
+.box_2 {
+    transform: translate(52px, 510px);
+    ;
+}
+
+.box_3 {
+    transform: translate(185px, 510px);
+}
+
+.box_4 {
+    transform: translate(224px, 510px);
+}
+
+.box_5 {
+    transform: translate(263px, 510px);
+}
+
+.box_6 {
+    transform: translate(300px, 510px);
+}
+
+.box_7 {
+    transform: translate(339px, 510px);
+}
+
+.box_8 {
+    transform: translate(378px, 510px);
+}
+
+// css map TDN
+
+.box_TDN {
+    width: 13px;
+    height: 24px;
+    z-index: 1;
+    cursor: pointer;
+    position: absolute;
+    border: 1px solid red;
+    background-color: aqua;
+}
+
+.box_TDN_1 {
+    transform: translate(137px, -248px) rotate(-46deg);
+}
+
+.box_TDN_2 {
+    transform: translate(154px, -232px) rotate(-46deg);
+}
+
+.box_TDN_3 {
+    transform: translate(171px, -216px) rotate(-46deg);
+}
+
+.box_TDN_4 {
+    transform: translate(188px, -201px) rotate(-50deg);
+}
+
+.box_TDN_5 {
+    transform: translate(205px, -188px) rotate(-54deg);
+}
+
+.box_TDN_6 {
+    transform: translate(225px, -174px) rotate(-55deg);
+}
+
+.box_TDN_7 {
+    transform: translate(245px, -161px) rotate(-58deg);
+}
+
+.box_TDN_8 {
+    transform: translate(265px, -149px) rotate(-59deg);
+}
