@@ -1,0 +1,263 @@
+[33mcommit b57ed8bb5f088c5e1e09ffe23a9e67a5c76debf5[m[33m ([m[1;36mHEAD -> [m[1;32mopti[m[33m)[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Tue Dec 21 16:08:14 2021 +0700
+
+    fix
+
+[33mcommit e2b4345fbe8046e4f5439fa39b8180d2cbb918d8[m
+Merge: f5833e5 aea30a3
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Tue Dec 21 00:41:20 2021 +0700
+
+    update branch
+
+[33mcommit f5833e59c5b7ff6cc50369c205c14ce206df3d53[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Tue Dec 21 00:40:11 2021 +0700
+
+    update Field, Gateway
+
+[33mcommit aea30a3a1cb3449d37184dfae1c9d1458646b11c[m
+Author: hieuttbk <hieuttbk@gmail.com>
+Date:   Mon Dec 20 18:44:56 2021 +0700
+
+    fix freq update
+
+[33mcommit e641f025f6e4554353b0ad019d593ac300944fcc[m
+Author: hieuttbk <hieuttbk@gmail.com>
+Date:   Mon Dec 20 18:07:07 2021 +0700
+
+    optimize analysis, need month fixxxx
+
+[33mcommit f44630f09a3ffb6308d511ea4f6ebb1111370b32[m
+Merge: 6da3086 ae2a3c1
+Author: hieuttbk <hieuttbk@gmail.com>
+Date:   Mon Dec 20 14:27:17 2021 +0700
+
+    Merge remote-tracking branch 'origin/opti' into opti
+
+[33mcommit 6da3086a2a180e2c01c55d7c469e2d30c112d8a7[m
+Author: hieuttbk <hieuttbk@gmail.com>
+Date:   Mon Dec 20 14:26:37 2021 +0700
+
+    optimize analysis: findbyField, then process time
+
+[33mcommit ae2a3c19e8d18ba3d703320c621fbc41d2331e8c[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Fri Dec 17 21:19:54 2021 +0700
+
+    increase index create field
+
+[33mcommit 8c2e1ea2708bc00fc43aedcdc49568271543375b[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Fri Dec 17 16:08:00 2021 +0700
+
+    update CRUD slots
+
+[33mcommit 77f17596514f14fac1928b280ee8bf6f1077cbce[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Sat Dec 11 15:36:13 2021 +0700
+
+    handle slot api, contract api and time format
+
+[33mcommit d6a13e1e8923d7071b8bc318a28d93222993f974[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Sat Dec 11 15:35:50 2021 +0700
+
+    handle required latitude and longitude
+
+[33mcommit f761746e1a9d327a01c0c8695a224d65f3ad2ed4[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Wed Dec 8 21:20:19 2021 +0700
+
+    fix getAll package
+
+[33mcommit ec91702a5b2acef4e7151da6efc73968e69d2619[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Wed Dec 8 20:50:19 2021 +0700
+
+    fix query tag debug, require false
+
+[33mcommit e2a7d5322f92407a226d07629357bc2804104246[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Wed Dec 8 20:40:38 2021 +0700
+
+    add contract query quantity
+
+[33mcommit a2b174d59b96f8fef00d34606e10b3135a85f724[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Tue Dec 7 21:47:22 2021 +0700
+
+    update api manager
+
+[33mcommit 822bbc21ae45d8b4e4daa7a7ead45cddbd2f32f2[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Tue Dec 7 21:47:07 2021 +0700
+
+    change pattern datetime
+
+[33mcommit 032f184c4146c4ad35415806937319da7f98d20c[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Mon Nov 29 15:55:52 2021 +0700
+
+    update hotfix
+
+[33mcommit b30df899c00077dca891ad5c839f76e1fe7ce073[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Mon Nov 29 15:55:40 2021 +0700
+
+    add @Transient annotation and @JsonSerialize
+
+[33mcommit ec0eda304db69d63530697e97318d332e0ce8f29[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Mon Nov 29 15:54:47 2021 +0700
+
+    add new constructor forTags
+
+[33mcommit f30bc09d35ad1db73faf7e25d0a253b83ee8b42b[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Mon Nov 22 13:27:19 2021 +0700
+
+    refactor DetectorPayload
+
+[33mcommit ceb5f2ce1db7cd53a25b931faf571d81704e8488[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Sun Nov 21 16:58:10 2021 +0700
+
+    FIX: internal server error & auto merge field when error
+
+[33mcommit 31aff97a83be5d55152fb2915c39dfb540e751a9[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Sun Nov 21 16:57:07 2021 +0700
+
+    unckeck field null to insert data into table sloto
+
+[33mcommit 8b23f5825da412c404fd674bb255361411acb8ec[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Sun Nov 21 16:55:42 2021 +0700
+
+    disable foreign key checks
+
+[33mcommit 9cd55922686febb8f83090cd1fd7a387bdc831e1[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Sun Nov 21 02:39:46 2021 +0700
+
+    fake info manager to testing
+
+[33mcommit aa86c512cd4b51b907a6174eb7b06cf853d72f59[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Sun Nov 21 02:39:21 2021 +0700
+
+    add path to get info manager
+
+[33mcommit cfadf08fa1150929e32c9a3a6b1a1a207d2fa3d2[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Sun Nov 21 02:38:49 2021 +0700
+
+    denied password
+
+[33mcommit aa05c98e3486dc0ffff0a1fda8a1d339c8468221[m
+Author: hieuttbk <hieuttbk@gmail.com>
+Date:   Fri Nov 19 14:16:50 2021 +0700
+
+    fix null in acp when update Manager
+
+[33mcommit 2619ce54f1fff5329cff9424950d8ce789bccb21[m
+Merge: c1af955 654e7e9
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Mon Nov 15 15:38:23 2021 -0800
+
+    Merge branch 'opti' of github.com:hieuttbk/backendparkingspacev3 into opti
+
+[33mcommit c1af95506ac80868cc5c97797b82ba31e2caf38f[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Mon Nov 15 15:36:25 2021 -0800
+
+    api detector, tags, tags_package
+
+[33mcommit 654e7e9a615c9366381f6c27b5e992737de9d4fd[m
+Merge: 05e90e3 975c84a
+Author: hieuttbk <hieuttbk@gmail.com>
+Date:   Thu Nov 11 22:32:29 2021 +0700
+
+    Merge remote-tracking branch 'origin/opti' into opti
+
+[33mcommit 05e90e3e770937ac6dc886d056f5b26b699c2d2f[m
+Author: hieuttbk <hieuttbk@gmail.com>
+Date:   Thu Nov 11 22:32:18 2021 +0700
+
+    fix null in acp and update TODO in GetDataDetector
+
+[33mcommit 72ed6d93260e47d109acc52e65dcbacde9e23cd4[m
+Author: hieuttbk <hieuttbk@gmail.com>
+Date:   Thu Nov 11 22:31:57 2021 +0700
+
+    fix null in acp and update TODO in GetDataDetector
+
+[33mcommit efbb1a318a74957913074d7f65469ee1a22a84c9[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Thu Nov 11 00:14:01 2021 -0800
+
+    get list user, manager ignore password
+
+[33mcommit 98c3ed7ae96225e490ada03dddd7c07600d820b4[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Wed Nov 10 23:17:49 2021 -0800
+
+    Fix TagRepository api
+
+[33mcommit 92cbab426aa65fef917fe6812451851cbbf65a81[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Wed Nov 10 23:17:09 2021 -0800
+
+    solution about news of Tag, Contract and Field
+
+[33mcommit b5d79e4eff22d71a5348be4f501a2785c7fe6de8[m
+Author: htnicayh <hieuhp1306@gmail.com>
+Date:   Wed Nov 10 23:15:58 2021 -0800
+
+    refactor format clean code
+
+[33mcommit 975c84aaed181c45cef58902382cc13df72a3259[m
+Author: hieuttbk <32388590+hieuttbk@users.noreply.github.com>
+Date:   Thu Nov 11 11:58:06 2021 +0700
+
+    database
+    
+    update database casecade
+
+[33mcommit b9b7f6fb9dbec939061f4149612b1e0aaccabc96[m
+Merge: efbb1a3 23fa8c8
+Author: hieuttbk <hieuttbk@gmail.com>
+Date:   Thu Nov 11 10:26:28 2021 +0700
+
+    Merge branch 'add-filter' into opti
+    
+    # Conflicts:
+    #       ParkingSpaceV3.sql
+    #       application.log
+    #       application.log.2021-11-10.0.gz
+    #       src/main/java/com/sparking/controller/ManagerController.java
+    #       src/main/java/com/sparking/entities/data/Manager.java
+    #       src/main/java/com/sparking/repository_impl/FieldRepo_Impl.java
+    #       src/main/java/com/sparking/repository_impl/GatewayRepo_Impl.java
+    #       src/main/java/com/sparking/service_impl/FieldService_Impl.java
+    #       src/main/java/com/sparking/service_impl/ManagerService_Impl.java
+
+[33mcommit 23fa8c88296ab2f886a69d5bc10e88545c44199b[m[33m ([m[1;31morigin/add-filter[m[33m)[m
+Author: hongdatchy <hongdatchy@gmail.com>
+Date:   Thu Nov 11 00:50:46 2021 +0700
+
+    1.add cascase remove, nen cac ham xoa trong repo se don gian hon. 2.gan field cho manager(da test). 3 tu tao slot khi tao moi field, neu sua field thi k tao moi
+
+[33mcommit a7c88e056afcad1f9b78ffa8167b031bf46661ba[m
+Author: hongdatchy <hongdatchy@gmail.com>
+Date:   Thu Nov 11 00:50:41 2021 +0700
+
+    1.add cascase remove, nen cac ham xoa trong repo se don gian hon. 2.gan field cho manager(da test). 3 tu tao slot khi tao moi field, neu sua field thi k tao moi
+
+[33mcommit 7973aea911e433901517495276f75c2a34a209ea[m
+Author: hieuttbk <hieuttbk@gmail.com>
+Date:   Tue Nov 9 17:01:37 2021 +0700
+
+    fix null in acp and upda

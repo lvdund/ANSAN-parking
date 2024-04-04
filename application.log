@@ -1,0 +1,16 @@
+2022-04-02 00:00:04.916  INFO 2792 --- [scheduling-1] c.s.BackendParkingSpaceV2Application     : UPDATE DATA CAM COMPLETE
+2022-04-02 00:00:50.254  INFO 3412 --- [main] c.s.BackendParkingSpaceV2Application     : Starting BackendParkingSpaceV2Application on DESKTOP-43VL7LQ with PID 3412 (C:\Users\Hyacinth\Desktop\backendparkingspacev3\target\classes started by Hyacinth in C:\Users\Hyacinth\Desktop\backendparkingspacev3)
+2022-04-02 00:00:50.258  INFO 3412 --- [main] c.s.BackendParkingSpaceV2Application     : No active profile set, falling back to default profiles: default
+2022-04-02 00:00:54.842  WARN 3412 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-02 00:00:56.147  INFO 3412 --- [scheduling-1] com.sparking.tune.ExpiredContract        : DELETE EXPIRED CONTRACT PERIODICALLY
+2022-04-02 00:00:56.147  INFO 3412 --- [main] c.s.BackendParkingSpaceV2Application     : Started BackendParkingSpaceV2Application in 6.28 seconds (JVM running for 6.994)
+2022-04-02 00:00:56.151  INFO 3412 --- [main] c.s.BackendParkingSpaceV2Application     : SERVER STARTED
+2022-04-02 00:00:56.155  INFO 3412 --- [main] c.s.BackendParkingSpaceV2Application     : UPDATE STATS FIELD
+2022-04-02 00:00:56.155  INFO 3412 --- [TAG] c.s.BackendParkingSpaceV2Application     : START TAG MODULE
+2022-04-02 00:00:56.155  INFO 3412 --- [main] com.sparking.tune.AnalysisFunction       : UPDATE ANALYSIS DATABASE: FIRST TIME
+2022-04-02 00:00:56.678  INFO 3412 --- [main] c.s.BackendParkingSpaceV2Application     : UPDATE DATABASE SLOT USING DATA FROM CAM
+2022-04-02 00:00:56.682  INFO 3412 --- [main] c.s.BackendParkingSpaceV2Application     : UPDATE DATA CAM COMPLETE
+2022-04-02 00:00:59.901 ERROR 3412 --- [http-nio-6969-exec-1] c.s.service_impl.UserService_Impl        : Parking went wrong ...
+2022-04-02 00:01:26.152  INFO 3412 --- [scheduling-1] com.sparking.tune.AnalysisFunction       : UPDATE ANALYSIS DATABASE: PERIODICALLY
+2022-04-02 00:01:56.154  INFO 3412 --- [scheduling-1] c.s.BackendParkingSpaceV2Application     : UPDATE DATA CAM COMPLETE
+2022-04-02 00:03:26.163  INFO 3412 --- [scheduling-1] com.sparking.tune.AnalysisFunction       : UPDATE ANALYSIS DATABASE: PERIODICALLY
