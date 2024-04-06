@@ -17,12 +17,6 @@ npm --version
 
 ## Installation
 
-Open the terminal and clone [this](https://github.com/thvroyal/hustparking) project
-
-```bash
-git clone https://github.com/thvroyal/hustparking.git
-cd hustparking
-```
 First, install this library ([link](https://www.npmjs.com/package/react-export-excel)):
 ```bash
 npm i react-export-excel
