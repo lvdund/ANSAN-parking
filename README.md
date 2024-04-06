@@ -3,7 +3,7 @@
 Deploy smart parking interface for managers and clients
 
 ## Requirement
-[NodeJS](https://nodejs.org/en/download/)
+[NodeJS - v14.21.3]([https://nodejs.org/en/download/](https://nodejs.org/download/release/v14.21.3/))
 
 Check version after install Node successfully:
 ```bash
